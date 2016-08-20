@@ -1,25 +1,36 @@
-Порядок выполнения скриптов
+**Основы:**
 
-Найти элемент <h2> на странице
-Изменить их CSS-свойства (style)
-Изменить их содержимое (textContent, innerHTML)
+- DOM: Document Object Model
+- Подключение JS на страницу
+- Порядок выполнения скриптов
+- Событие `load`
 
-Element:
-— parentElement, childen, firstChild, lastChild
-— className, classList
-— getAttribute(), setAttribute()
-- document.createElement()
-- appendChild(), removeChild(), insertBefore()
+**Упражнение #1:**
 
-Найти все элементы <li> на странице
-Изменить CSS-свойства для четных элементов
+- Найти элемент `<h2>` на странице
+- Изменить его CSS-свойства (style)
+- Изменить его содержимое (`textContent`, `innerHTML`)
 
-События:
-- addEventListener, removeEventListener
-— click + ev.preventDefault()
-- event.target / this
-- mousedown, mouseup
-- keydown, keyup (ev.keyCode)
-- mouseover, mouseout, mousemove (ev.screenX, ev.screenY)
+**Element. Свойства и методы:**
 
-Делегирование событий
+- `parentElement`, `children`, `firstChild`, `lastChild`
+- `className`, `classList`
+- `getAttribute()`, `setAttribute()`
+- `document.createElement()`
+- `appendChild()`, `removeChild()`, `insertBefore()`
+
+**Упражнение #2:**
+
+- Найти все элементы `<li>` на странице
+- Добавить CSS-класс только для четных элементов
+
+**События:**
+
+- `addEventListener`, `removeEventListener`
+- `click`, `ev.preventDefault()`
+- `event.target`, `this`
+- `mousedown`, `mouseup`
+- `keydown`, `keyup`, `ev.keyCode`
+- `mouseover`, `mouseout`, `mousemove`, `ev.screenX`, `ev.screenY`
+- `scroll`, `resize`, `contextmenu`
+- всплытие и перехват, делегирование событий
