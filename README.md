@@ -1,5 +1,4 @@
-# mcs-humanjs
-Упражнения для студентов Moscow Coding School.
+# Упражнения для студентов курса «JavaScript человеческим языком» в Moscow Coding School
 
 ## DOM
 Первое знакомство с понятием Document Object Model: селекторы, события, порядок выполнения скриптов.
