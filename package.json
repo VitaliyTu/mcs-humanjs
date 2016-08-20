@@ -1,0 +1,19 @@
+{
+  "name": "mcs-humanjs",
+  "version": "1.0.0",
+  "description": "Exercises for Moscow Coding School students",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yegor Yakovishen <yegor.yakovishen@me.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaplusplus/mcs-humanjs.git"
+  },
+}
