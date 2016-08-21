@@ -1,0 +1,325 @@
+[
+	{
+		"model": "model-s",
+		"firstName": "Илон",
+		"lastName": "Маск",
+		"phone": "+31231232323",
+		"email": "ceo@tesla.com"
+	},
+	{
+		"model": "[выберите модель]",
+		"FirstName": "",
+		"LastName": "",
+		"email": "",
+		"phone": "",
+		"country": "[выберите страну]"
+	},
+	{
+		"model": "roadster",
+		"FirstName": "",
+		"LastName": "",
+		"email": "",
+		"phone": "",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"FirstName": "ANDREY",
+		"LastName": "RASPITIN",
+		"email": "a.raspitin@gmail.com",
+		"phone": "9161021136",
+		"country": "7"
+	},
+	{
+		"model": "roadster",
+		"FirstName": "",
+		"LastName": "",
+		"email": "",
+		"phone": "",
+		"country": "[выберите страну]"
+	},
+	{
+		"model": "roadster",
+		"FirstName": "dsfasf",
+		"LastName": "sadfsdf",
+		"email": "a.raspitin@gmail.com",
+		"phone": "+79161021136",
+		"country": "7"
+	},
+	{
+		"firstName": "Noor",
+		"lastName": "Al Hlibi",
+		"email": "navras.niceone@hotmail.com",
+		"phone": "89689644117",
+		"country": "7"
+	},
+	{
+		"firstName": "Noor",
+		"lastName": "Al Hlibi",
+		"email": "navras.niceone@hotmail.com",
+		"phone": "89689644117",
+		"country": "380"
+	},
+	{
+		"model": "model-s",
+		"firstName": "Noor",
+		"lastName": "Al Hlibi",
+		"email": "navras.niceone@hotmail.com",
+		"phone": "+7 (968) 964-41-17",
+		"country": "380"
+	},
+	{
+		"model": "model-s",
+		"firstName": "نورس",
+		"lastName": "Al Hlibi",
+		"email": "navras.niceone@hotmail.com",
+		"phone": "+7 (968) 964-41-17",
+		"country": "380"
+	},
+	{
+		"model": "model-s",
+		"firstName": "نورس",
+		"lastName": "Al Hlibi",
+		"email": "navras.niceone@hotmail.com",
+		"phone": "89689644117",
+		"country": "7"
+	},
+	{
+		"model": "model-s",
+		"firstName": "نورس",
+		"lastName": "الحليبي",
+		"email": "navras.niceone@hotmail.com",
+		"phone": "+7 (968) 964-41-17",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "FFF",
+		"lastName": "FFF",
+		"email": "a@a.com",
+		"phone": "+71234567890",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "FFF",
+		"lastName": "FFF",
+		"email": "a@a.com",
+		"phone": "+71234567890",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "FFF",
+		"lastName": "FFF",
+		"email": "fg@dfg.eei",
+		"phone": "+71234567890",
+		"country": "7"
+	},
+	{
+		"model": "roadster",
+		"FirstName": "dfasdf",
+		"LastName": "sadfs",
+		"email": "a.raspitin@gmail.com",
+		"phone": "+79161021136",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "GGG",
+		"lastName": "GGG",
+		"email": "fg@dfg.eei",
+		"phone": "+71234567890",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "FFF",
+		"lastName": "FFF",
+		"email": "fg@dfg.eei",
+		"phone": "+71234567890",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "",
+		"lastName": "",
+		"email": "",
+		"phone": "",
+		"country": "[выберите страну]"
+	},
+	{
+		"model": "roadster",
+		"FirstName": "wdfwdfs",
+		"LastName": "sdfasd",
+		"email": "a.raspitin@gmail.com",
+		"phone": "+79161021136",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "FFF",
+		"lastName": "FFF",
+		"email": "fg@dfg.eei",
+		"phone": "+71234567890",
+		"country": "[выберите страну]"
+	},
+	{
+		"model": "roadster",
+		"FirstName": "sdfsadf",
+		"LastName": "asfd",
+		"email": "a.raspitin@gmail.com",
+		"phone": "+79161021136",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "FFF",
+		"lastName": "FFF",
+		"email": "fg@dfg.eei",
+		"phone": "+71234567890",
+		"country": "7"
+	},
+	{
+		"model": "roadster",
+		"FirstName": "df",
+		"LastName": "sfd",
+		"email": "a.raspitin@gmail.com",
+		"phone": "+79161021136",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "FFf",
+		"lastName": "FFf",
+		"email": "fg@dfg.eei",
+		"phone": "+71234567890",
+		"country": "7"
+	},
+	{
+		"model": "roadster",
+		"FirstName": "asdfa",
+		"LastName": "dfsdfsd",
+		"email": "a.raspitin@gmail.com",
+		"phone": "+79161021136",
+		"country": "7"
+	},
+	{
+		"model": "model-s",
+		"firstName": "b",
+		"lastName": "b",
+		"phone": "+31231232323",
+		"email": "b@b.com",
+		"country": "380"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "FFf",
+		"lastName": "FFF",
+		"email": "fg@dfg.eei",
+		"phone": "+71234567890",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "FFF",
+		"lastName": "FFF",
+		"email": "fg@dfg.eei",
+		"phone": "+71234567890",
+		"country": "7"
+	},
+	{
+		"model": "[выберите модель]",
+		"firstName": "FFF",
+		"lastName": "FFF",
+		"email": "fg@dfg.eei",
+		"phone": "+71234567890",
+		"country": "7"
+	},
+	{
+		"model": "model-s",
+		"FirstName": "adf",
+		"LastName": "sdfasd",
+		"email": "a.raspitin@gmail.com",
+		"phone": "+79161021136",
+		"country": "7"
+	},
+	{
+		"model": "model-s",
+		"FirstName": "sdfsd",
+		"LastName": "sdfsd",
+		"email": "a.raspitin@gmail.com",
+		"phone": "+79161021136",
+		"country": "7"
+	},
+	{
+		"model": "model-x",
+		"firstName": "ANASTASIA",
+		"lastName": "Mitsul",
+		"email": "auresil@gmail.com",
+		"phone": "+633651745",
+		"country": "7"
+	},
+	{
+		"model": "model-s",
+		"first-name": "Sveta",
+		"last-name": "Ivanova",
+		"email": "sveta@example.com",
+		"phone": "+31 123456789"
+	},
+	{
+		"model": "roadster",
+		"FirstName": "dfsd",
+		"LastName": "sdfsd",
+		"email": "a.raspitin@gmail.com",
+		"phone": "+79161021136",
+		"country": "7"
+	},
+	{
+		"model": "model-s",
+		"firstName": "Илон",
+		"lastName": "Майская",
+		"phone": "+31231232323",
+		"email": "b@b.com",
+		"country": "61"
+	},
+	{
+		"model": "roadster",
+		"firstName": "АНАСТАСИЯ",
+		"lastName": "МИЦУЛ",
+		"email": "auresil@gmail.com",
+		"phone": "+79036128192",
+		"country": "7"
+	},
+	{
+		"model": "roadster",
+		"FirstName": "фывафыва",
+		"LastName": "ыва",
+		"email": "a.raspitin@gmail.com",
+		"phone": "+79161021136",
+		"country": "7"
+	},
+	{
+		"model": "model-s",
+		"first-name": "Sveta",
+		"last-name": "Ivanova",
+		"email": "sveta@example.com",
+		"phone": "+31 123456789"
+	},
+	{
+		"model": "roadster",
+		"FirstName": "fqwa",
+		"LastName": "werwq",
+		"email": "a.raspitin@gmail.com",
+		"phone": "+79161021136",
+		"country": "7"
+	},
+	{
+		"model": "model-s",
+		"firstName": "نورس",
+		"lastName": "الحليبي",
+		"email": "navras.niceone@hotmail.com",
+		"phone": "89689644117",
+		"country": "7"
+	}
+]

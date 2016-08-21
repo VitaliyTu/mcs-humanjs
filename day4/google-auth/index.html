@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Вход</title>
+
+    <!-- Подключаем шрифт Open Sans через веб-сервис Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+    <!-- Подключаем CSS-фреймворк Bootstrap для быстрой верстки -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- В этом файле находятся CSS-стили страницы -->
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <!-- А в этом пишем наш JavaScript-код -->
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <img src="img/logo.png" class="logo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <h1>Один аккаунт. Весь мир Google!</h1>
+
+        <h2>Войдите, используя аккаунт Google</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <form>
+
+                        <!-- Эл. почта -->
+                        <div class="form-group">
+                            <input type="text" class="login form-control" placeholder="Эл. почта">
+                            <p class="login-error text-danger"></p>
+                        </div>
+
+                        <!-- Пароль -->
+                        <div class="form-group">
+                            <input type="password" class="password form-control" placeholder="Пароль">
+                            <p class="password-error text-danger"></p>
+                        </div>
+
+                        <!-- Кнопка «Далее» -->
+                        <div class="form-group">
+                            <button class="btn btn-google">Войти</button>
+                            <p class="form-error text-danger"></p>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <span>Google</span>
+                    <a href="#">Конфиденциальность и условия</a>
+                    <a href="#">Справка</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
