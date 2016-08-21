@@ -9,3 +9,6 @@
 #### Frontender Magazine
 1. [Что такое DOM?](http://frontender.info/dom/)
 1. [Введение в события DOM](http://frontender.info/an-introduction-to-dom-events/)
+
+#### Прочее
+1. [Список всех DOM-событий на Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/Events)
