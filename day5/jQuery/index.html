@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>jQuery</title>
+
+    <!-- CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+
+<body class="bg-info">
+<div class="container">
+
+    <h1 class="text-center">jQuery</h1>
+
+    <div class="row text-row">
+
+        <div class="col-xs-4">
+            <img src="img/warcraft.jpg" width="100%" class="warcraft">
+        </div>
+
+        <div class="col-xs-6">
+            <div class="description">
+                <h3>Варкрафт</h3>
+
+                <p>Под влиянием Скверны, демонической магии, Дренор, родной мир орков, умирает, и, чтобы спасти свою расу от неминуемой гибели, вожди всех кланов приводят всех к Тёмному Порталу, где орочий чернокнижник Гул’дан, который обладает Скверной, собирается открыть портал в другой мир, пригодный для жизни. Все кланы объединяются у портала в единую Орду, ведомую Гул’даном. Черпая силу от энергии жизни пленных дренеев, Гул’дан активирует портал на непродолжительное время, которого хватает, чтобы перенести самых сильных воинов Орды, в числе которых и клан Северного Волка под предводительством Дуротана и Оргрима Молота Рока. Сразу после прохождения через портал у Дреки, у жены вождя, начинаются роды, но ребёнок бледен и не подаёт признаков жизни. Колдун берёт в руки тело орочьего малыша и, используя магию Скверны, вдыхает в него жизненную силу оленя, оказавшегося рядом. Гул’дан призывает орков приветствовать нового воина Орды, и толпа ликует.</p>
+
+                <p>Тем временем, до лорда Андуина Лотара, главнокомандующего королевства людей и шурина короля Ллейна Ринна, который находится с визитом в городе дворфов Стальгорне, доходят известия о таинственных захватчиках, которые уже успели опустошить несколько близлежащих деревень, а жителей забрать в плен. Желая осмотреть трупы воинов в крепости, он натыкается на молодого мага Кадгара, бывшего члена Кирин-Тор, когда-то отрёкшегося от своей клятвы будущего Хранителя Тирисфаля. Чародей, осматривая тело, внезапно пугается, и умоляет вызвать Хранителя Медива, заверяя Андуина, что тот всё им объяснит. Но вызвать Хранителя не так просто, и Лотар отправляется за помощью к Ллейну Ринну, королю Штормграда, который обладает должной властью потребовать визита Медива.</p>
+            </div>
+        </div>
+
+        <div class="col-xs-2 col-sidebar">
+            <p><b>Жанр:</b></p>
+            <ul>
+                <li>фэнтези</li>
+                <li>приключения</li>
+            </ul>
+
+            <p><b>В главных ролях:</b></p>
+            <ul class="cast">
+                <li>Трэвис Фиммел</li>
+                <li>Пола Паттон</li>
+                <li>Бен Фостер</li>
+                <li>Доминик Купер</li>
+                <li>Тоби Кеббелл</li>
+                <li>Бен Шнетцер</li>
+                <li>Роберт Казински</li>
+                <li>Дэниел Ву</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <h1 class="text-center">Анимация и события</h1>
+
+    <div class="row animation-row">
+        <div class="col-xs-4 text-center">
+            <h4>show / hide</h4>
+            <button class="button-show">Показать</button>
+            <button class="button-hide">Скрыть</button>
+            <button class="button-toggle">Туда-сюда</button>
+            <br><br>
+            <div class="clearfix">
+                <img class="image-1" src="img/duncan-jones.jpg" height="400">
+            </div>
+        </div>
+        <div class="col-xs-4 text-center">
+            <h4>slideDown / slideUp / slideToggle</h4>
+            <button class="button-slidedown">Развернуть</button>
+            <button class="button-slideup">Свернуть</button>
+            <button class="button-slidetoggle">Туда-сюда</button>
+            <br><br>
+            <div class="clearfix">
+                <img class="image-2" src="img/source-code.jpg" height="400">
+            </div>
+        </div>
+        <div class="col-xs-4 text-center">
+            <h4>fadeOut / fadeIn / fadeToggle</h4>
+            <button class="button-fadein">Показать из фейда</button>
+            <button class="button-fadeout">Скрыть в фейд</button>
+            <button class="button-fadetoggle">Туда-сюда</button>
+            <br><br>
+            <div class="clearfix">
+                <img class="image-3" src="img/moon.jpg" height="400">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <h1 class="text-center">animate()</h1>
+    <div class="text-center">
+        <button class="button-goal">Гол!</button>
+    </div>
+
+    <div class="row football">
+        <img class="field" src="img/field.jpg">
+        <img class="ball" src="img/ball.png">
+    </div>
+
+</div>
+</body>
