@@ -110,7 +110,7 @@ app.post('/reg', upload.array(), function (req, res) {
 // Authorization
 //
 
-app.post('/auth', urlencodedParser, function (req, res) {
+app.post('/auth', upload.array(), function (req, res) {
     console.log('[INFO] Получен запрос на авторизацию с адреса: ' + req.ip.replace('::ffff:', ''));
 
     // console.log(req);
@@ -149,6 +149,6 @@ app.post('/auth', urlencodedParser, function (req, res) {
 
 });
 
-app.listen(3000, function () {
-    console.log('Server listening on http://localhost:3000');
+app.listen(3333, function () {
+    console.log('Server listening on http://localhost:3333');
 });
