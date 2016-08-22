@@ -33,7 +33,7 @@
 1. [Дата и Время](http://learn.javascript.ru/datetime)
 1. [Методы объектов, this](http://learn.javascript.ru/object-methods)
 
-#### Прочее
+#### Хороший и плохой код
 1. **[Всё вместе: особенности JavaScript](http://learn.javascript.ru/javascript-specials)**
 1. **[Правильный выбор имени переменной](http://learn.javascript.ru/variable-names)**
 1. **[Советы по стилю кода](http://learn.javascript.ru/coding-style)**
@@ -43,3 +43,8 @@
 #### HTML и CSS
 1. [Уроки по HTML и CSS](https://webref.ru/layout/learn-html-css)
 1. [Сайты и Lego](https://webref.ru/layout/howtocodeinhtml/chapter1)
+
+#### Прочее
+1. [Музыка для сосредоточенного программирования](http://musicforprogramming.net/)
+1. [WikiGalaxy: a 3D visualization of Wikipedia](https://www.youtube.com/watch?v=8G8d-umcvfg)
+1. [NodeBots Hackathon](https://www.youtube.com/watch?v=pmp_hCg6jGQ)
