@@ -49,7 +49,7 @@ var taskList = document.querySelector('.task-list');
 
 // Добавляем на него обработчик события 'click'
 // он будет перехватывать всплывющие события-клики по его дочерним элементам
-// (подробнее про всплытие и перехват: [http://learn.javascript.ru/event-bubbling](http://learn.javascript.ru/event-bubbling))
+// (подробнее про всплытие и перехват: http://learn.javascript.ru/event-bubbling)
 taskList.addEventListener('click', function (event) {
   // event.target — это элемент, по которому был произведен клик
   // можно обращаться к его свойства и методам, например: event.target.classList
