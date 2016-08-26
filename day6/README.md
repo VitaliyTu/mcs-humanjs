@@ -129,7 +129,8 @@ history.go(-3) // вернуться на три перехода назад
 
 history.back() // вернуться на один перехода назад
 
-history.pushState(), history.replaceState() // установить URL и состояние без перезагрузки страницы
+history.pushState() // добавить новую запись (URL и состояние) в историю переходов
+history.replaceState() // заменить текущий URL и состояние без перезагрузки страницы
 ```
 
 #### navigator (информация о браузере):
@@ -154,7 +155,11 @@ navigator.onLine // статус: онлайн или оффлайн (true / fal
 - http://webaim.org/blog/user-agent-string-history/
 - https://www.quora.com/Why-do-non-Mozilla-browsers-include-Mozilla-in-their-user-agent-strings
 
-3. Редактирование контента:
+***
+<h3 align="center"><b>Перерыв (10 мин)</b></h3>
+***
+
+## Редактирование контента на странице:
 
 - contenteditable
 - http://getcontenttools.com/demo
