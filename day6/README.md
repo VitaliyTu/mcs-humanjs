@@ -1,13 +1,13 @@
 # День 6: современный JavaScript
 
-### Полезные ресурсы для разработчика
+## Полезные ресурсы для разработчика
 * [MDN](https://developer.mozilla.org/ru/) — актуальный и полезный справочник по веб-технологиям
 * [jsfiddle](https://jsfiddle.net/), [jsbin](http://jsbin.com), [codepen](http://codepen.io/) — сервисы для быстрого прототипирования HTML+CSS+JS, а также для демонстрации примеров кода
 * [Eloquent JavaScript](http://eloquentjavascript.net/), [Speaking JavaScript](http://speakingjs.com/), [Exploring ES6](http://exploringjs.com/) — хорошие книги по JavaScript, в том числе по современному стандарту ES2015
 
-### Стандарные объекты браузера
+## Стандарные объекты браузера
 
-### console
+#### console
 ```js
 console.log('text'); // вывести что-либо в консоль
 
