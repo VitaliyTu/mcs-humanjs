@@ -161,10 +161,10 @@ navigator.onLine // статус: онлайн или оффлайн (true / fal
 
 ## Редактирование и сохранение контента в браузере:
 
-- contenteditable
+- `contenteditable`
 - http://getcontenttools.com/demo
-- SessionStorage
-- LocalStorage
+- `SessionStorage`
+- `LocalStorage`
 - http://mdn.github.io/web-storage-demo/
 
 ### Практика: делаем визуальный редактор
@@ -187,33 +187,33 @@ navigator.onLine // статус: онлайн или оффлайн (true / fal
 - https://developer.mozilla.org/en-US/docs/Web/API
 - http://caniuse.com/
 
-WebSockets
+**WebSockets**
 - https://github.com/yaplusplus/simplechat
 
-Web Push API
+**Web Push API**
 - https://developer.mozilla.org/ru/docs/Web/API/Push_API
 
-Geolocation
+**Geolocation**
 - https://developer.mozilla.org/ru/docs/Web/API/Geolocation/Using_geolocation
 
-Web Audio API
+**Web Audio API**
 - http://webaudioapi.com/samples/
 - https://developer.mozilla.org/ru/docs/Web/API/Web_Audio_API
 
-Video API
+**Video API**
 - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video
 
-Canvas
+**Canvas**
 - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
 - http://code.tutsplus.com/articles/21-ridiculously-impressive-html5-canvas-experiments--net-14210
 
 ## Системы контроля версий и github:
 
-- Демонстрация работы git
-- https://github.com/jquery/jquery
-- https://robflaherty.github.io/jquery-annotated-source/docs/01-core.html
-- https://github.com/WebKit/webkit/
+- Демонстрация работы git: `status, add, commit, ...`
+- Пример: [исходники jQuery](https://github.com/jquery/jquery)
+- Сила Open Source — [аннотированные исходники jQuery](https://robflaherty.github.io/jquery-annotated-source/docs/01-core.html)
+- Исходники браузерного [движка WebKit](https://github.com/WebKit/webkit/)
 
-## ES6
+## Эволюция фронтенда 2015-2016
 
-- Babel
+- [Демонстрация слайдов с комментариями](https://yadi.sk/i/rdCkXGvwuWJMN)
