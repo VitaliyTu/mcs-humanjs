@@ -212,7 +212,8 @@ navigator.onLine // статус: онлайн или оффлайн (true / fal
 - Демонстрация работы git: `status, add, commit, ...`
 - Пример: [исходники jQuery](https://github.com/jquery/jquery)
 - Сила Open Source — [аннотированные исходники jQuery](https://robflaherty.github.io/jquery-annotated-source/docs/01-core.html)
-- Исходники браузерного [движка WebKit](https://github.com/WebKit/webkit/)
+- Исходники браузерного [движка WebKit](https://github.com/WebKit/webkit/).
+Пример: [исходники функции `querySelector`](https://github.com/WebKit/webkit/blob/master/Source/WebCore/dom/SelectorQuery.cpp)
 
 ## Эволюция фронтенда 2015-2016
 
