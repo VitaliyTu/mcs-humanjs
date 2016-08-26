@@ -7,30 +7,82 @@
 
 ### Стандарные объекты браузера
 
-#### console
+### console
 ```js
-log()
-error()
-time(), timeEnd()
-table()
-clear()
+console.log('text'); // вывести что-либо в консоль
+
+console.error(); // вывести ошибку в консоль
+
+// изменить время выполнения кода:
+console.time('label');
+// some code...
+// some code...
+// some code...
+console.timeEnd('label');
+
+console.table([
+  { id: 1, mark: 'BMW', model: 'X5' },
+  { id: 2, mark: 'Mercedes', model: 'CLK' },
+  { id: 3, mark: 'Audi', model: 'TT' }
+]);
+
+console.clear(); // очистить консоль
 ```
 
-#### Window
-```js
-window.innerWidth, outerWidth
-window.innerHeight, innerHeight
-window.scrollX, scrollY
-window.scrollTo(), window.scrollBy()
-alert(), prompt(), confirm()
-setTimeout(), setInterval()
-window.open()
-window.reload()
-window.getSelection()
+### window
 
-// События:
-scroll
-resize
+#### Размеры и положение окна
+```js
+window.innerWidth, window.innerHeight // ширина и высота viewport — видимой части сайта
+
+window.innerWidth, window.outerWidth // ширина и высота всего окна браузера
+
+window.scrollX, window.scrollY // позиция скролла относительно левой верхней точки документа
+
+window.scrollTo(x, y); // проскролить окно к координатам x,y
+window.scrollBy(x, y); // проскроллить окно на величину x,y при каждом вызове
+```
+
+#### Взаимодействие с пользователем
+```js
+// Уже знакомые функции:
+alert('message'); //  отобразить сообщение
+prompt('What is your name?', 'default name'); // запросить строку у пользователя
+confirm('Are you really want to quit?'); // запросить подтверждение: да / нет
+
+window.getSelection(); // получить информацию о текущем выделении текста на странице
+
+window.open('http://yandex.ru'); // открыть адрес в новой вкладке/окне
+```
+
+#### Отложенное выполнение кода:
+```js
+// таймаут
+setTimeout(function () {
+  alert('Прошла секунда');
+}, 1000);
+
+// задать интервал
+var timer = setInterval(function () {
+  console.log( new Date() );
+}, 1000);
+
+// остановить интервал
+clearInterval(timer);
+```
+
+#### События:
+```js
+// Скролл
+window.addEventListener('scroll', function () {
+  console.log( window.scrollY );
+});
+
+// Изменение размера окна
+window.addEventListener('resize', function () {
+  console.log( window.outerWidth );
+});
+```
 
 // А также полезный метод:
 getboundingclientrect()
