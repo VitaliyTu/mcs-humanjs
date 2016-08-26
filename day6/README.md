@@ -151,7 +151,7 @@ navigator.language // язык
 navigator.onLine // статус: онлайн или оффлайн (true / false)
 ```
 
-Почему браузер Chrome, а везде упоминается Netscape и Mozilla? Ответ здесь:
+Почему браузер — Chrome, а везде упоминается Netscape и Mozilla? Ответ здесь:
 - http://webaim.org/blog/user-agent-string-history/
 - https://www.quora.com/Why-do-non-Mozilla-browsers-include-Mozilla-in-their-user-agent-strings
 
