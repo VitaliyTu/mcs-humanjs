@@ -110,7 +110,7 @@ app.post('/reg', upload.array(), function (req, res) {
 // Authorization
 //
 
-app.post('/auth', upload.array(), function (req, res) {
+app.post('/auth', urlencodedParser, function (req, res) {
     console.log('[INFO] Получен запрос на авторизацию с адреса: ' + req.ip.replace('::ffff:', ''));
 
     // console.log(req);
