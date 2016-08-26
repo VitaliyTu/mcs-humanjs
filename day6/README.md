@@ -86,8 +86,6 @@ window.addEventListener('resize', function () {
 ```
 
 ### document
-
-#### Свойства документа:
 ```js
 document.title // заголовок окна (read/write)
 
@@ -104,7 +102,7 @@ document.scripts // скрипты
 document.styleSheets // таблицы стилей
 ```
 
-#### Текущее местоположение:
+#### location (адресная строка)
 ```js
 location.href // полный URL (read / write)
 
@@ -123,30 +121,38 @@ location.protocol // протокол (http, https, ...)
 location.replace('http://example.com') // заменить текущий адрес без сохранения истории перехода
 ```
 
-#### История переходов по страницам:
+#### history (история переходов по страницам)
 ```js
-- History
-    - length
-    - go()
-    - back()
-    - pushState() и replaceState()
+history.length // кол-во переходов по страницам
+
+history.go(-3) // вернуться на три перехода назад
+
+history.back() // вернуться на один перехода назад
+
+history.pushState(), history.replaceState() // установить URL и состояние без перезагрузки страницы
 ```
 
-#### Информация о браузере:
+#### navigator (информация о браузере):
 ```js
-- Navigator
-- navigator.appName
-- navigator.appCodeName
-- navigator.appVersion
-- navigator.vendor
-- navigator.platform
-- navigator.product
-- navigator.language
-- navigator.onLine
+// названия и версия браузера:
+navigator.appName
+navigator.appCodeName
+navigator.appVersion
+
+navigator.vendor // производитель
+
+navigator.platform // платформа
+
+navigator.product // движок
+
+navigator.language // язык
+
+navigator.onLine // статус: онлайн или оффлайн (true / false)
 ```
 
-http://webaim.org/blog/user-agent-string-history/
-https://www.quora.com/Why-do-non-Mozilla-browsers-include-Mozilla-in-their-user-agent-strings
+Почему браузер Chrome, а везде упоминается Netscape и Mozilla? Ответ здесь:
+- http://webaim.org/blog/user-agent-string-history/
+- https://www.quora.com/Why-do-non-Mozilla-browsers-include-Mozilla-in-their-user-agent-strings
 
 3. Редактирование контента:
 
