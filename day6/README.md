@@ -102,7 +102,7 @@ document.scripts // скрипты
 document.styleSheets // таблицы стилей
 ```
 
-#### location (адресная строка)
+### location (адресная строка)
 ```js
 location.href // полный URL (read / write)
 
@@ -121,7 +121,7 @@ location.protocol // протокол (http, https, ...)
 location.replace('http://example.com') // заменить текущий адрес без сохранения истории перехода
 ```
 
-#### history (история переходов по страницам)
+### history (история переходов по страницам)
 ```js
 history.length // кол-во переходов по страницам
 
@@ -133,7 +133,7 @@ history.pushState() // добавить новую запись (URL и сост
 history.replaceState() // заменить текущий URL и состояние без перезагрузки страницы
 ```
 
-#### navigator (информация о браузере):
+### navigator (информация о браузере):
 ```js
 // названия и версия браузера:
 navigator.appName
