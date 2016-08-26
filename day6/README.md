@@ -183,6 +183,8 @@ navigator.onLine // статус: онлайн или оффлайн (true / fal
 
 ## Демонстрация различных Web API:
 
+Что такое API и зачем они нужны?
+
 - https://developer.mozilla.org/en-US/docs/Web/API
 - http://caniuse.com/
 
