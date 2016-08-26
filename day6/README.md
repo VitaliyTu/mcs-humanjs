@@ -173,8 +173,8 @@ navigator.onLine // статус: онлайн или оффлайн (true / fal
 **Задачи:**
 
 1. Кнопка «Edit» должна переключать `div.editor` в режим `contenteditable="true"`
-- Кнопка «Save» должна сохранять данные из `div.editor` в `localStorage`
-- Кнопка «Cancel» должна отменять изменения, внесенные в `div.editor`
+- Кнопка «Save» должна сохранять данные из `div.editor` в `localStorage` и переключать `contenteditable` в `false`
+- Кнопка «Cancel» должна отменять изменения, внесенные в `div.editor`, и переключать `contenteditable` в `false`
 - При перезагрузке страницы в `div.editor` должно подтягиваться содержимое из `localStorage`
 
 ***
