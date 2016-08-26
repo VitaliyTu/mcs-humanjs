@@ -159,7 +159,7 @@ navigator.onLine // статус: онлайн или оффлайн (true / fal
 <h3 align="center"><b>Перерыв (10 мин)</b></h3>
 ***
 
-## Редактирование контента на странице:
+## Редактирование и сохранение контента в браузере:
 
 - contenteditable
 - http://getcontenttools.com/demo
@@ -167,7 +167,21 @@ navigator.onLine // статус: онлайн или оффлайн (true / fal
 - LocalStorage
 - http://mdn.github.io/web-storage-demo/
 
-Демонстрация различных API:
+### Практика: делаем визуальный редактор
+
+**Задачи:**
+(работаем в файле [editor/script.js](editor/script.js))
+
+1. Кнопка «Edit» должна переключать `div.editor` в режим `contenteditable="true"`
+1. Кнопка «Save» должна сохранять данные из `div.editor` в `localStorage`
+2. Кнопка «Cancel» должна отменять изменения, внесенные в `div.editor`
+3. При перезагрузке страницы в `div.editor` должно подтягиваться содержимое из `localStorage`
+
+***
+<h3 align="center"><b>Перерыв (20 мин)</b></h3>
+***
+
+## Демонстрация различных Web API:
 https://developer.mozilla.org/en-US/docs/Web/API
 http://caniuse.com/
 
