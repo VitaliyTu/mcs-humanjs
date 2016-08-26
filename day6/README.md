@@ -169,52 +169,51 @@ navigator.onLine // статус: онлайн или оффлайн (true / fal
 
 ### Практика: делаем визуальный редактор
 
+*Работаем в папке [editor](editor/)*
+
 **Задачи:**
-(работаем в файле [editor/script.js](editor/script.js))
 
 1. Кнопка «Edit» должна переключать `div.editor` в режим `contenteditable="true"`
-1. Кнопка «Save» должна сохранять данные из `div.editor` в `localStorage`
-2. Кнопка «Cancel» должна отменять изменения, внесенные в `div.editor`
-3. При перезагрузке страницы в `div.editor` должно подтягиваться содержимое из `localStorage`
+- Кнопка «Save» должна сохранять данные из `div.editor` в `localStorage`
+- Кнопка «Cancel» должна отменять изменения, внесенные в `div.editor`
+- При перезагрузке страницы в `div.editor` должно подтягиваться содержимое из `localStorage`
 
 ***
 <h3 align="center"><b>Перерыв (20 мин)</b></h3>
 ***
 
 ## Демонстрация различных Web API:
-https://developer.mozilla.org/en-US/docs/Web/API
-http://caniuse.com/
+
+- https://developer.mozilla.org/en-US/docs/Web/API
+- http://caniuse.com/
 
 WebSockets
-https://github.com/yaplusplus/simplechat
+- https://github.com/yaplusplus/simplechat
 
 Web Push API
-https://developer.mozilla.org/ru/docs/Web/API/Push_API
+- https://developer.mozilla.org/ru/docs/Web/API/Push_API
 
 Geolocation
-https://developer.mozilla.org/ru/docs/Web/API/Geolocation/Using_geolocation
+- https://developer.mozilla.org/ru/docs/Web/API/Geolocation/Using_geolocation
 
 Web Audio API
-http://webaudioapi.com/samples/
-https://developer.mozilla.org/ru/docs/Web/API/Web_Audio_API
+- http://webaudioapi.com/samples/
+- https://developer.mozilla.org/ru/docs/Web/API/Web_Audio_API
 
 Video API
-https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video
+- https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video
 
 Canvas
-https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
-http://code.tutsplus.com/articles/21-ridiculously-impressive-html5-canvas-experiments--net-14210
+- https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+- http://code.tutsplus.com/articles/21-ridiculously-impressive-html5-canvas-experiments--net-14210
 
-WebGL
-...
-
-Системы контроля версий и github:
+## Системы контроля версий и github:
 
 - Демонстрация работы git
 - https://github.com/jquery/jquery
 - https://robflaherty.github.io/jquery-annotated-source/docs/01-core.html
 - https://github.com/WebKit/webkit/
 
-ES6
+## ES6
 
 - Babel
