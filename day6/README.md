@@ -162,10 +162,9 @@ navigator.onLine // статус: онлайн или оффлайн (true / fal
 ## Редактирование и сохранение контента в браузере:
 
 - `contenteditable`
-- http://getcontenttools.com/demo
-- `SessionStorage`
-- `LocalStorage`
-- http://mdn.github.io/web-storage-demo/
+- http://getcontenttools.com/demo — пример работы `contenteditable`
+- `SessionStorage` и `LocalStorage` — браузерные хранилища
+- http://mdn.github.io/web-storage-demo/ — пример работы хранилища
 
 ### Практика: делаем визуальный редактор
 
