@@ -1,7 +1,7 @@
 # День 6: современный JavaScript
 
 ## Полезные ресурсы для разработчика
-* [MDN](https://developer.mozilla.org/ru/) — актуальный и полезный справочник по веб-технологиям
+* [Mozilla Developer Network](https://developer.mozilla.org/ru/) — актуальный и полезный справочник по веб-технологиям
 * [jsfiddle](https://jsfiddle.net/), [jsbin](http://jsbin.com), [codepen](http://codepen.io/) — сервисы для быстрого прототипирования HTML+CSS+JS, а также для демонстрации примеров кода
 * [Eloquent JavaScript](http://eloquentjavascript.net/), [Speaking JavaScript](http://speakingjs.com/), [Exploring ES6](http://exploringjs.com/) — хорошие книги по JavaScript, в том числе по современному стандарту ES2015
 
@@ -11,7 +11,7 @@
 ```js
 console.log('text'); // вывести что-либо в консоль
 
-console.error(); // вывести ошибку в консоль
+console.error('что-то пошло не так'); // вывести ошибку в консоль
 
 // изменить время выполнения кода:
 console.time('label');
@@ -20,6 +20,7 @@ console.time('label');
 // some code...
 console.timeEnd('label');
 
+// вывести массив объектов в виде таблицы:
 console.table([
   { id: 1, mark: 'BMW', model: 'X5' },
   { id: 2, mark: 'Mercedes', model: 'CLK' },
@@ -84,42 +85,65 @@ window.addEventListener('resize', function () {
 });
 ```
 
-// А также полезный метод:
-getboundingclientrect()
+### document
+
+#### Свойства документа:
+```js
+document.title // заголовок окна (read/write)
+
+document.domain // текущий домен
+
+document.referrer // адрес, с которого был осуществлен переход на текущую страницу
+
+document.charset // кодировка документа
+
+// Коллекции объектов на странице:
+document.forms // формы
+document.images // картинки
+document.scripts // скрипты
+document.styleSheets // таблицы стилей
 ```
 
-- Document
-    - document.title
-    - document.domain
-    - document.referrer
-    - document.forms
-    - document.charset
-    - document.images
-    - document.scripts
-    - document.styleSheets
-- Location
-    - location.href
-    - location.host
-    - location.hostname
-    - location.pathname
-    - location.search
-    - location.hash
-    - location.protocol
-    - location.replace()
+#### Текущее местоположение:
+```js
+location.href // полный URL (read / write)
+
+location.host // домен и порт, если указан в адресе
+
+location.hostname // только домен
+
+location.pathname // путь (реальный или виртуальный)
+
+location.search // query-параметры (после вопросительного знака)
+
+location.hash // #хэш
+
+location.protocol // протокол (http, https, ...)
+
+location.replace('http://example.com') // заменить текущий адрес без сохранения истории перехода
+```
+
+#### История переходов по страницам:
+```js
 - History
     - length
     - go()
     - back()
     - pushState() и replaceState()
+```
+
+#### Информация о браузере:
+```js
 - Navigator
-    - navigator.appName
-    - navigator.appCodeName
-    - navigator.appVersion
-    - navigator.vendor
-    - navigator.platform
-    - navigator.product
-    - navigator.language
-    - navigator.onLine
+- navigator.appName
+- navigator.appCodeName
+- navigator.appVersion
+- navigator.vendor
+- navigator.platform
+- navigator.product
+- navigator.language
+- navigator.onLine
+```
 
 http://webaim.org/blog/user-agent-string-history/
 https://www.quora.com/Why-do-non-Mozilla-browsers-include-Mozilla-in-their-user-agent-strings
