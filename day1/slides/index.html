@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JavaScript человеческим языком</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+  <link rel="stylesheet" href="slides.css">
+</head>
+<body class="shower list">
+
+  <header class="caption">
+    <h1>JavaScript человеческим языком</h1>
+    <p>с Егором Яковишеным</p>
+  </header>
+
+  <section class="slide" id="cover">
+    <h2>JavaScript человеческим языком</h2>
+    <p>с Егором Яковишеным</p>
+    <!-- <img src="pictures/cover.jpg" alt="" class="cover"> -->
+  </section>
+
+  <section class="slide">
+    <h2>Егор Яковишен</h2>
+    <ol>
+      <li>Занимаюсь веб-разработкой с 2005 года</li>
+      <li>Первый сайт сделал в 2003 году в Microsoft FrontPage</li>
+      <li>Участвовал в создании более 150 интернет-проектов</li>
+      <li>Со-основатель веб-студии, digital-агентства, туристического стартапа</li>
+      <li>Работаю в Look At Media / Setka</li>
+    </ol>
+    <p><a href="http://facebook.com/yaplusplus">facebook.com/yaplusplus</a></p>
+  </section>
+
+  <section class="slide">
+    <h2>Привет!</h2>
+    <ol>
+      <li>Есть опыт программирования?</li>
+      <li>Почему JavaScript?</li>
+      <li>Что ждешь от курса?</li>
+    </ol>
+  </section>
+
+  <section class="slide">
+    <h2>День 1. Основы</h2>
+    <ol>
+      <li>История и возможности языка</li>
+      <li>Редактор кода и инструменты разработчика</li>
+      <li>Переменные и типы данных</li>
+      <li>Операторы: основные, условные, логические</li>
+      <li>Циклы и массивы</li>
+    </ol>
+  </section>
+
+  <section class="slide">
+    <h2>День 2. Функции и объекты</h2>
+    <ol>
+      <li>Функции, аргументы и возвращаемые значения</li>
+      <li>Локальные и глобальные переменные</li>
+      <li>Объектно-ориентированное программирование</li>
+      <li>Объекты, свойства и методы, this</li>
+      <li>Стандартные объекты JavaScript</li>
+      <li><b>Практика: часы</b></li>
+    </ol>
+  </section>
+
+  <section class="slide">
+    <h2>День 3. HTML, CSS и JS</h2>
+    <ol>
+      <li>Структура, представление и поведение</li>
+      <li>DOM и селекторы</li>
+      <li>Свойства и методы DOM-элементов</li>
+      <li>События и обработчики</li>
+      <li><b>Практика: главная страница Яндекса</b></li>
+    </ol>
+  </section>
+
+  <section class="slide">
+    <h2>День 4. Клиент и сервер</h2>
+    <ol>
+      <li>Элементы и события форм</li>
+      <li>Правила валидации</li>
+      <li>Клиент и сервер</li>
+      <li>AJAX, GET и POST</li>
+      <li><b>Практика: страница регистрации в Google</b></li>
+    </ol>
+  </section>
+
+  <section class="slide">
+    <h2>День 5. jQuery</h2>
+    <ol>
+      <li>Библиотека jQuery</li>
+      <li>Функция $</li>
+      <li>Анимация и jQuery UI</li>
+      <li>$.get и $.post</li>
+      <li><b>Практика: страница авторизации в Google</b></li>
+    </ol>
+  </section>
+
+  <section class="slide">
+    <h2>День 6. Современный JavaScript</h2>
+    <ol>
+      <li>Стандартные объекты: console, window, document</li>
+      <li>Редактирование и сохранение контента</li>
+      <li>Web API</li>
+      <li>Системы контроля версий и GitHub</li>
+      <li>ECMAScript 6 и будущее JS</li>
+      <li><b>Вручение дипломов!</b></li>
+    </ol>
+  </section>
+
+  <section class="slide">
+    <h2>План действий</h2>
+    <ol>
+      <li>Немного теории</li>
+      <li class="next">Пишем код</li>
+      <li class="next">Разбираемся, что произошло</li>
+      <li class="next">Пробуем самостоятельно</li>
+      <li class="next">...</li>
+      <li class="next">Микротест!</li>
+    </ol>
+  </section>
+
+  <section class="slide slide-title slide-chapter">
+    <h2>Программирование</h2>
+  </section>
+
+  <section class="slide">
+    <h2 class="shout shrink">Что такое программирование?</h2>
+  </section>
+
+  <section class="slide slide-title">
+    <h2>Программирование&nbsp;— написание инструкций для компьютера</h2>
+  </section>
+
+  <section class="slide slide-title">
+    <h2>
+      Жена отправляет мужа-программиста в магазин:<br><br>
+      «Купи батон хлеба.<br>Если будут яйца, купи десяток».
+    </h2>
+  </section>
+
+  <section class="slide">
+    <h2>Программирование</h2>
+    <ol>
+      <li>Алгоритмы</li>
+      <li class="next">Абстракции</li>
+      <li class="next">Синтаксис</li>
+      <li class="next">Опыт</li>
+    </ol>
+  </section>
+
+  <section class="slide">
+    <h2>JavaScript есть во всех браузерах</h2>
+    <!-- <p class="note">(как в десктопных, так и в мобильных)</p> -->
+    <ol>
+      <li>Chrome</li>
+      <li>Safari</li>
+      <li>Firefox</li>
+      <li>Opera</li>
+      <li>Edge</li>
+      <li>Internet Explorer</li>
+    </ol>
+  </section>
+
+  <section class="slide">
+    <h2>Возможности JavaScript</h2>
+    <ol>
+      <li>Изменение страницы «на лету»</li>
+      <li>Проверка и отправка форм</li>
+      <li>Анимация</li>
+      <li>2D и 3D-графика</li>
+      <li>Видео и аудио</li>
+      <li>Взаимодействие с операционной системой</li>
+    </ol>
+  </section>
+
+  <section class="slide slide-title slide-chapter">
+    <h2>Редактор кода и консоль</h2>
+  </section>
+
+  <section class="slide slide-title slide-chapter">
+    <h2>Типы данных</h2>
+  </section>
+
+  <section class="slide" style="text-align: center;">
+    <h2>Число / Number</h2>
+    <p>
+      <code>0</code><br>
+      <code>1</code><br>
+      <code>10</code><br>
+      <code>2016</code><br>
+      <code>0.783</code><br>
+      <code>-1</code>
+    </p>
+    <!--<p>Минимальное и максимальное значения:</p>
+    <p>
+      <code>-2<sup>53</sup></code>&nbsp;&nbsp;&nbsp;
+      <code>1</code>&nbsp;&nbsp;&nbsp;
+    </p>-->
+  </section>
+
+  <section class="slide" style="text-align: center;">
+    <h2>Строка / String</h2>
+    <p>
+      <code>'JavaScript'</code><br>
+      <code>"добрый день"</code><br>
+      <code>'2016'</code><br>
+      <code>'你好你怎麼樣'</code><br>
+      <code>''</code>
+    </p>
+  </section>
+
+  <section class="slide" style="text-align: center;">
+    <h2>Булев тип / Boolean</h2>
+    <p>
+      <code>true</code><br>
+      <code>false</code>
+    </p>
+  </section>
+
+  <section class="slide slide-title slide-chapter">
+    <h2>Переменные</h2>
+  </section>
+
+  <section class="slide">
+    <h2>Переменные величины</h2>
+    <ul>
+      <li>Число студентов на курсе</li>
+      <li>Размер экрана смартфона</li>
+      <li>Количество лайков</li>
+      <li>Цена на нефть</li>
+      <li>Зарплата</li>
+      <li>...</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>Характеристики переменной</h2>
+    <ul>
+      <li>Имя</li>
+      <li>Тип</li>
+      <li>Значение</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>Имя переменной</h2>
+    <ul>
+      <li><b>Короткое и непонятное:</b>
+        <ul>
+          <li><code>x</code>, <code>y</code></li>
+          <li><code>x1</code>, <code>y123</code></li>
+          <li><code>myVar</code>, <code>$var__</code></li>
+        </ul>
+      </li>
+      <li><b>Более длинное и понятное <i>(дескриптивное)</i>:</b>
+        <ul>
+          <li><code>counter</code></li>
+          <li><code>userName</code></li>
+          <li><code>is_user_authorized</code></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>Имя переменной</h2>
+    <ul>
+      <li><b>Может состоять из:</b>
+        <ul>
+          <li>больших и маленьких латинских букв</li>
+          <li>цифр</li>
+          <li>символов <code>$</code> и <code>_</code></li>
+        </ul>
+      </li>
+      <li><b>Не может:</b>
+        <ul>
+          <li>начинаться с цифры</li>
+          <li>содержать пробелы</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>Типы переменных</h2>
+
+    <ul>
+      <li><b>Базовые:</b>
+        <ul>
+          <li><code>number</code></li>
+          <li><code>string</code></li>
+          <li><code>boolean</code></li>
+        </ul>
+      </li>
+      <li><b>Специальные:</b>
+        <ul>
+          <li><code>undefined</code> и <code>null</code></li>
+        </ul>
+      </li>
+      <li><b>Продвинутые:</b>
+        <ul>
+          <li><code>function</code> и <code>object</code></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>Объявление переменной</h2>
+    <pre>
+      <code><span class="comment">// строка</span></code>
+      <code>var myName = 'Егор';</code>
+    </pre>
+
+    <pre>
+      <code><span class="comment">// число</span></code>
+      <code>var year = 2016;</code>
+    </pre>
+
+    <pre>
+      <code><span class="comment">// переменная со значением и без</span></code>
+      <code>var foo = 1;</code>
+      <code>var bar;</code>
+    </pre>
+
+  </section>
+
+  <section class="slide slide-title slide-chapter">
+    <h2>Привет, %username%</h2>
+  </section>
+
+  <!--
+    To hide progress bar from entire presentation
+    just remove “progress” element.
+    -->
+  <div class="progress"></div>
+  <script src="shower/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JavaScript человеческим языком</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+  <link rel="stylesheet" href="slides.css">
+</head>
+<body class="shower list">
+
+  <header class="caption">
+    <h1>JavaScript человеческим языком</h1>
+    <p>с Егором Яковишеным</p>
+  </header>
+
+  <section class="slide" id="cover">
+    <h2>JavaScript человеческим языком</h2>
+    <p>с Егором Яковишеным</p>
+    <!-- <img src="pictures/cover.jpg" alt="" class="cover"> -->
+  </section>
+
+  <section class="slide slide-title slide-chapter">
+    <h2>Функции</h2>
+  </section>
+
+  <section class="slide">
+    <h2>Функция</h2>
+    <pre>
+      <code><span class="comment">// объявление функции</span></code>
+      <code><mark>function printHello()</mark> {</code>
+      <code>  console.log('Привет, мир!');</code>
+      <code>}</code>
+      <code><br></code>
+      <code><span class="comment">// вызов функции</span></code>
+      <code><mark>printHello();</mark></code>
+    </pre>
+  </section>
+
+  <section class="slide">
+    <h2>Упражнение «Любимый фильм»</h2>
+    <p>Напишите функцию <mark>printFavoriteMovie</mark>, которая выводит название вашего любимого фильма.</p>
+  </section>
+
+  <section class="slide">
+    <h2>Аргументы (параметры) функции</h2>
+    <pre>
+      <code><span class="comment">// объявление функции</span></code>
+      <code>function printHello(<mark>name</mark>) {</code>
+      <code>  console.log('Привет, ' + <mark>name</mark>);</code>
+      <code>}</code>
+      <code><br></code>
+      <code><span class="comment">// вызов функции</span></code>
+      <code>printHello(<mark>'Егор'</mark>); <span class="comment">// Привет, Егор</span></code>
+      <code>printHello(<mark>'JavaScript'</mark>); <span class="comment">// Привет, JavaScript</span></code>
+    </pre>
+  </section>
+
+  <section class="slide">
+    <h2>Упражнение «Несколько любимых фильмов»</h2>
+    <p>Перепишите функцию <mark>printFavoriteMovie</mark>, чтобы она принимала название фильма в качестве аргумента и выводила строку «Мой любимый фильм: _название фильма_».</p>
+    <p>В случае, если название фильма не передано, должна выводиться строка «У меня нет любимого фильма :-(».</p>
+  </section>
+
+  <section class="slide">
+    <h2>Упражнение «Много любимых фильмов»</h2>
+    <p>Перепишите функцию <mark>printFavoriteMovie</mark>, чтобы она принимала массив с фильмами в качестве аргумента, и затем выводила их названия через запятую.</p>
+  </section>
+
+  <section class="slide">
+    <h2>Область видимости<br>и глобальные переменные</h2>
+    <pre>
+      <code><mark>var a = 1;</mark><span class="comment"> // глобальная переменная</span></code>
+      <code>function myFunc() {</code>
+      <code>  <mark>var a = 2;</mark><span class="comment"> // локальная переменная</span></code>
+      <code>}</code>
+      <code><br></code>
+      <code>myFunc();</code>
+      <code>console.log(a);<span class="comment"> // 1</span></code>
+    </pre>
+  </section>
+
+  <section class="slide">
+    <h2>Область видимости<br>и глобальные переменные</h2>
+    <pre>
+      <code>var a = 1;<span class="comment"> // глобальная переменная</span></code>
+      <code>function myFunc() {</code>
+      <code>  <mark>a = 2;</mark><span class="comment"> // переопределение глобальной переменной</span></code>
+      <code>}</code>
+      <code><br></code>
+      <code>myFunc();</code>
+      <code>console.log(a);<span class="comment"> <mark>// 2</mark></span></code>
+    </pre>
+  </section>
+
+  <section class="slide">
+    <h2>Область видимости<br>и глобальные переменные</h2>
+    <pre>
+      <code>var a = 1;<span class="comment"> // глобальная переменная</span></code>
+      <code>function myFunc() {</code>
+      <code>  <mark>var a = 2;</mark><span class="comment"> // локальная переменная</span></code>
+      <code>  console.log(a);<span class="comment"> <mark>// 2</mark></span></code>
+      <code>}</code>
+      <code>myFunc();</code>
+      <code>console.log(a);<span class="comment"> <mark>// 1</mark></span></code>
+    </pre>
+  </section>
+
+  <section class="slide">
+    <h2>Возвращаемое значение</h2>
+    <pre>
+      <code>function sum(<mark>a, b</mark>) {</code>
+      <code>  <mark>return a + b</mark>; <span class="comment">// функция возвращает результат</span></code>
+      <code>}</code>
+      <code><br></code>
+      <code>var s = sum(5, 10); <span class="comment">// вызов функции с параметрами</span></code>
+      <code>console.log(s); <span class="comment">// 15</span></code>
+    </pre>
+  </section>
+
+  <section class="slide">
+    <h2>Упражнение «Сумма чисел в массиве»</h2>
+    <p>Напишите функцию <mark>arraySum</mark>, которая принимает массив с числами в качестве параметра, и возвращает их сумму.</p>
+    <p><b>Пример использования:</b></p>
+    <pre>
+      <code>var s1 = arraySum([1, 2, 3]);</code>
+      <code>var s2 = arraySum([10, 20, -5]);</code>
+      <code>console.log(s1); <span class="comment">// 6</span></code>
+      <code>console.log(s2); <span class="comment">// 25</span></code>
+    </pre>
+  </section>
+
+  <section class="slide slide-title slide-chapter">
+    <h2>Объекты</h2>
+  </section>
+
+  <!--
+    To hide progress bar from entire presentation
+    just remove “progress” element.
+    -->
+  <div class="progress"></div>
+  <script src="shower/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>

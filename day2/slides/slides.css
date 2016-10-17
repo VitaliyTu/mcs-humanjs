@@ -1,0 +1,40 @@
+.slide-title {
+  display: flex; justify-content: center; align-items: center;
+  padding-top: 0;
+}
+.slide-title h2 {
+  font-size: 70px; text-align: center;
+}
+
+.slide-chapter {
+  color: #fff;
+  background: blue;
+}
+.slide-chapter h2 {
+  color: #fff;
+}
+
+.slide .shout {
+  font-size: 100px;
+}
+
+#cover {
+  background: blue;
+  color: #fff;
+}
+#cover h2 {
+  margin: 30px 0 0;
+  color: #fff;
+  text-align: center;
+  font-size: 70px;
+}
+#cover p {
+  margin: 10px 0 0;
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-size: 20px;
+}
+#cover p a {
+  color: #fff;
+}
